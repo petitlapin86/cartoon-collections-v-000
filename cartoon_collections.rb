@@ -1,5 +1,5 @@
 def roll_call_dwarves(arraydwarves)# code an argument here
-  # Your code here
+  arraydwarves.each.with_index# Your code here
   puts arraydwarves
 end
 
