@@ -8,8 +8,13 @@ def summon_captain_planet(planeteer_calls)# code an argument here
  planeteer_calls.collect { |planets| planets + "!" }   # Your code here
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)# code an argument here
+  if calls.length < 4 
+    true 
+  else 
+    false
+  else 
+    # Your code here
 end
 
 def find_the_cheese# code an argument here
